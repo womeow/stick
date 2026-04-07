@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-color: #272121;
+    color: #ffe695;
+    padding: 20px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+article {
+    color:#272121
+}
+
+body header{
+    background-color: #272121;
+}
+
+body nav{
+    background-color: #ffe695;
+}
+body nav a {
+    background-color: #e6e6e6;
+    color: #071323;
+}
+
+body footer{
+    background-color: #ffe695;
+}
+
+body nav a:hover {
+    background-color:  #ffe695;
+    color:  #e6e6e6;
+}
+
+body section {
+    background-color: #ffe695;
+}
+body h2 {
+    color: #272121;
+    border: 2px solid #272121;
+}
+
+.rb-bold {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+main {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*фон слизерина*/
+
+body.slytherin {
+    background-color: #496e56;
+    color: #e6e6e6;
+    padding: 20px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+body.slytherin header{
+    background-color: #1a472a;
+}
+
+body.slytherin nav{
+    background-color: #1a472a;
+}
+
+body.slytherin nav a {
+    background-color: #e6e6e6;
+    color: rgb(18, 52, 30);
+}
+
+body.slytherin footer{
+    background-color: #1a472a;
+}
+
+body.slytherin nav a:hover {
+    background-color:  #1a472a;
+    color:  #e6e6e6;
+}
+
+body.slytherin section {
+    background-color: #1a492bbe;
+}
+
+header {
+    background-color: rgb(105, 6, 6);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: rgb(105, 6, 6);
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    background-color: rgb(238, 226, 154);
+    color: rgb(34, 31, 31);
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+    
+}
+
+nav a:hover {
+    background-color:  rgb(105, 6, 6);
+    color:  rgb(238, 226, 154);
+}
+
+ul a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(105, 6, 6);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #071323;
+}
+
+img {
+    display: block;
+    margin: 25px auto;
+    max-width: 600px;
+}
+
+section {
+    background-color: rgba(105, 6, 6, 0.5);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: rgb(238, 226, 154);
+    border: 2px solid rgb(238, 226, 154);
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+body.slytherin h2 {
+    color: #e6e6e6;
+    border: 2px solid #e6e6e6;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.facultets {
+background-color: #ffd447;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    list-style: none;    
+    font-size: 20px;
+    width: 100%;
+}
+.facultets a {
+    color: rgb(34, 31, 31);
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+body.hufflepuff {
+    background-color: #ffea03;
+    color: #e6e6e6;
+    padding: 20px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+
+body.hufflepuff header{
+    background-color: #caa322;
+}
+
+body.hufflepuff nav{
+    background-color: #caa322;
+}
+body.hufflepuff nav a {
+    background-color: #e6e6e6;
+    color: #211c05;
+}
+
+body.hufflepuff footer{
+    background-color: #caa322;
+}
+
+body.hufflepuff nav a:hover {
+    background-color:  #caa322;
+    color:  #e6e6e6;
+}
+
+body.hufflepuff section {
+    background-color: #caa322;
+}
+
+body.ravenclaw {
+    background-color: #73b1fd;
+    color: #e6e6e6;
+    padding: 20px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+
+body.ravenclaw header{
+    background-color: #356bad;
+}
+
+body.ravenclaw nav{
+    background-color: #356bad;
+}
+body.ravenclaw nav a {
+    background-color: #e6e6e6;
+    color: #071323;
+}
+
+body.ravenclaw footer{
+    background-color: #356bad;
+}
+
+body.ravenclaw nav a:hover {
+    background-color:  #73b1fd;
+    color:  #e6e6e6;
+}
+
+body.ravenclaw section {
+    background-color: #356bad;
+}
+body.ravenclaw h2 {
+    color: #e6e6e6;
+    border: 2px solid #e6e6e6;
+}
+
+body.gryffindor {
+    background-color: #ba413d;
+    color: #e6e6e6;
+    padding: 20px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+
+body.gryffindor header{
+    background-color: #95140f;
+}
+
+body.gryffindor nav{
+    background-color: #95140f;
+}
+body.gryffindor nav a {
+    background-color: #e6e6e6;
+    color: #071323;
+}
+
+body.gryffindor footer{
+    background-color: #95140f;
+}
+
+body.gryffindor nav a:hover {
+    background-color:  #95140f;
+    color:  #e6e6e6;
+}
+
+body.gryffindor section {
+    background-color: #95140f;
+}
+body.gryffindor h2 {
+    color: #e6e6e6;
+    border: 2px solid #e6e6e6;
+}
